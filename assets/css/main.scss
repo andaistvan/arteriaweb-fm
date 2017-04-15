@@ -6,6 +6,11 @@
 
 
 //---------------------------
+// FONTS
+//---------------------------
+@import "../fonts/fonts";
+
+//---------------------------
 // VARIABLES
 //---------------------------
 @import "../vendor/materialize/sass/components/mixins";
@@ -23,7 +28,7 @@
 @import "../vendor/materialize/sass/components/icons-material-design";
 @import "../vendor/materialize/sass/components/grid";
 @import "../vendor/materialize/sass/components/navbar";
-@import "../vendor/materialize/sass/components/roboto";
+// @import "../vendor/materialize/sass/components/roboto";
 @import "../vendor/materialize/sass/components/typography";
 @import "../vendor/materialize/sass/components/transitions";
 @import "../vendor/materialize/sass/components/cards";
@@ -53,6 +58,7 @@
 //---------------------------
 // VENDOR STYLES
 //---------------------------
+
 
 
 //---------------------------

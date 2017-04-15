@@ -1,7 +1,7 @@
 description = "default multi pages layout"
 ==
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +26,7 @@ description = "default multi pages layout"
         </header>
 
         <!-- Content -->
-        <section id="page-content">
+        <section id="layout-content">
             {% page %}
         </section>
 
@@ -40,6 +40,8 @@ description = "default multi pages layout"
         '@framework',
         '@framework.extras',
     ]|theme }}"></script>
+
+    <!-- vendor scripts and scripts init -->
     {% partial 'meta/scripts' %}
     {% scripts %}
     </body>
