@@ -20,22 +20,27 @@ description = "default multi pages layout"
 
     <body>
 
-        <!-- Header -->
-        <header id="layout-header">
-            {% partial 'all-pages/header' %}
-        </header>
+        <div class="site-wrapper">
 
-        <!-- Content -->
-        <section id="layout-content">
-            {% page %}
-        </section>
+            <!-- Header -->
+            <header id="layout-header">
+                {% partial 'all-pages/header' %}
+            </header>
 
-        <!-- Footer -->
-        <footer id="layout-footer">
-            {% partial 'all-pages/footer' %}
-        </footer>
+            <!-- Content -->
+            <section id="layout-content">
+                {{ this.page.title }}
+                {% page %}
+            </section>
 
-    <script src"{{ [
+            <!-- Footer -->
+            <footer id="layout-footer">
+                {% partial 'all-pages/footer' %}
+            </footer>
+
+        </div>  <!-- site-wrapper -->
+
+    <script src="{{ [
         '@jquery',
         '@framework',
         '@framework.extras',

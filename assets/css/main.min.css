@@ -3129,6 +3129,24 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 @media (min-height: 40.125em) { .picker--time .picker__box { margin-bottom: 5em; } }
 
+html, body { width: 100%; }
+
+.clear { clear: both; }
+
+.site-wrapper { width: 100%; max-width: 1600px; display: table; margin: 0 auto; }
+
+.fullwidth { width: 100%; }
+
+header#layout-header { width: 100%; }
+
+#header-topbar { border-bottom: 1px solid lightgray; }
+
+#header-topbar ul { margin: 0px; line-height: 1em; }
+
+#header-topbar ul li { display: inline-block; }
+
+#header-topbar ul li a i { line-height: 1em; }
+
 section#maintenance.valign-wrapper { width: 100%; min-height: 100vh; background-image: url("../images/maintenance/maintenance-bg.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; }
 
 section#maintenance.valign-wrapper img { max-width: 100%; display: block; }

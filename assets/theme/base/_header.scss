@@ -1,0 +1,29 @@
+//-----------------------
+// HEADER styles
+//-----------------------
+header#layout-header{
+    width: 100%;
+}
+//-----------------------
+// TOPBAR styles
+//-----------------------
+#header-topbar{
+    border-bottom: 1px solid lightgray;
+    // height: 30px;
+}
+#header-topbar ul{
+    margin: 0px;
+    line-height: 1em;
+}
+#header-topbar ul li{
+    display: inline-block;
+    a{
+        // line-height: 1em;
+        i{
+            line-height: 1em;
+        }
+    }
+}
+//-----------------------
+// HEADER MAIN
+//-----------------------

@@ -23,10 +23,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/arteriaweb theme file structure.html",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -47,10 +47,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets structure.html",
 		"oF": 0,
-		"oFM": 0,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -181,6 +181,58 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/theme\/base\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/theme\/base\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/theme\/base\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/theme\/base\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/theme\/base\/_navigation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/theme\/base\/_navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/theme\/base\/_styleguide.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/theme\/base\/_styleguide.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/theme\/pages\/_maintenance.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -190,6 +242,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/theme\/pages\/_maintenance.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/theme\/pages\/_sections.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/theme\/pages\/_sections.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -656,7 +721,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/vendor\/materialize\/README.html",
 		"oF": 0,
 		"oFM": 0,
@@ -1318,7 +1383,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/vendor\/wow\/README.html",
 		"oF": 0,
 		"oFM": 0,
@@ -1406,6 +1471,12 @@
 		"oS": 0,
 		"sC": 1
 		},
+	"\/content\/social.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/social.htm",
+		"oF": 0
+		},
 	"\/layouts\/default.htm": {
 		"ft": 8192,
 		"oA": 2,
@@ -1442,10 +1513,52 @@
 		"oAP": "\/pages\/base\/base-single.htm",
 		"oF": 0
 		},
+	"\/pages\/kapcsolat.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/pages\/kapcsolat.htm",
+		"oF": 0
+		},
 	"\/pages\/maintenance.htm": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/pages\/maintenance.htm",
+		"oF": 0
+		},
+	"\/pages\/rolunk.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/pages\/rolunk.htm",
+		"oF": 0
+		},
+	"\/pages\/styleguide\/cards.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/pages\/styleguide\/cards.htm",
+		"oF": 0
+		},
+	"\/pages\/styleguide\/navbars.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/pages\/styleguide\/navbars.htm",
+		"oF": 0
+		},
+	"\/pages\/styleguide\/styleguide.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/pages\/styleguide\/styleguide.htm",
+		"oF": 0
+		},
+	"\/pages\/styleguide\/text-blocks.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/pages\/styleguide\/text-blocks.htm",
+		"oF": 0
+		},
+	"\/pages\/szolgaltatasaink.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/pages\/szolgaltatasaink.htm",
 		"oF": 0
 		},
 	"\/partials\/all-pages\/footer.htm": {
@@ -1460,11 +1573,35 @@
 		"oAP": "\/partials\/all-pages\/header.htm",
 		"oF": 0
 		},
+	"\/partials\/all-pages\/main-navigation.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/all-pages\/main-navigation.htm",
+		"oF": 0
+		},
 	"\/partials\/meta\/scripts.htm": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/partials\/meta\/scripts.htm",
 		"oF": 0
+		},
+	"\/styleguide-structure.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/styleguide-structure.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/theme.yaml": {
 		"ft": 8192,
@@ -3256,7 +3393,7 @@
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",

@@ -1,4 +1,12 @@
 @charset "UTF-8";
 
+// BASE
+@import "base/base";
+@import "base/styleguide";
+@import "base/header";
+@import "base/footer";
+@import "base/navigation";
+
 // MAINTENANCE
 @import "pages/maintenance";
+@import "pages/sections";
