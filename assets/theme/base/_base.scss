@@ -3,6 +3,7 @@
 //------------------------
 html, body{
     width: 100%;
+    background: #eceff1;
 }
 
 .clear{
@@ -22,4 +23,9 @@ html, body{
 //------------------------
 .fullwidth{
     width: 100%;
+}
+
+section#layout-content{
+    min-height: 90vh;
+    z-index: 1;
 }

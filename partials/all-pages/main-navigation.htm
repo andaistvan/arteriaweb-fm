@@ -14,6 +14,7 @@ description = "branding, main navigation"
 <nav>
     <div class="nav-wrapper">
         <a href="#!" class="brand-logo">Logo</a>
+        <a href="#" data-activates="slide-out" class="button-collapse right"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
             <li class="{% if this.page.id == 'base-home' %}active{% endif %}"><a href="{{ 'home'|page }}">Kezdőlap</a></li>
             <li class="{% if this.page.id == 'szolgaltatasaink' %}active{% endif %}"><a href="{{ 'szolgaltatasaink'|page }}">Szolgáltatásaink</a></li>
@@ -25,3 +26,22 @@ description = "branding, main navigation"
     </div>
 </nav>
 <!-- MOBIL NAVIGATION -->
+<ul id="slide-out" class="side-nav">
+    <li class="{% if this.page.id == 'base-home' %}active{% endif %}"><a href="{{ 'home'|page }}">Kezdőlap</a></li>
+    <li class="{% if this.page.id == 'szolgaltatasaink' %}active{% endif %}"><a href="{{ 'szolgaltatasaink'|page }}">Szolgáltatásaink</a></li>
+    <!-- Collapsible -->
+
+        <ul class="collapsible" data-collapsible="accordion">
+            <li class="mobilnav-collapsible">
+                <div class="collapsible-header">Dropdown<i class="material-icons right">filter_drama</i></div>
+                <div class="collapsible-body">
+                    <span>
+                        Lófasz
+                    </span>
+                </div>
+            </li>
+        </ul>
+
+    <li class="{% if this.page.id == 'rolunk' %}active{% endif %}"><a href="{{ 'rolunk'|page }}">Rólunk</a></li>
+    <li class="{% if this.page.id == 'kapcsolat' %}active{% endif %}"><a href="{{ 'kapcsolat'|page }}">Kapcsolat</a></li>
+</ul>

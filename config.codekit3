@@ -133,6 +133,15 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/js\/theme-init-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/theme-init-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/theme-init.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1477,10 +1486,10 @@
 		"oAP": "\/content\/social.htm",
 		"oF": 0
 		},
-	"\/layouts\/default.htm": {
+	"\/layouts\/main-layout.htm": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/layouts\/default.htm",
+		"oAP": "\/layouts\/main-layout.htm",
 		"oF": 0
 		},
 	"\/layouts\/maintenance.htm": {
@@ -1577,6 +1586,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/partials\/all-pages\/main-navigation.htm",
+		"oF": 0
+		},
+	"\/partials\/all-pages\/styleguide.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partials\/all-pages\/styleguide.htm",
 		"oF": 0
 		},
 	"\/partials\/meta\/scripts.htm": {

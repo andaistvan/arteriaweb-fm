@@ -3,13 +3,13 @@
 //-----------------------
 header#layout-header{
     width: 100%;
+    z-index: 99;
 }
 //-----------------------
 // TOPBAR styles
 //-----------------------
 #header-topbar{
-    border-bottom: 1px solid lightgray;
-    // height: 30px;
+    background: $primary-color-dark;
 }
 #header-topbar ul{
     margin: 0px;
@@ -18,7 +18,7 @@ header#layout-header{
 #header-topbar ul li{
     display: inline-block;
     a{
-        // line-height: 1em;
+        color: white;
         i{
             line-height: 1em;
         }
@@ -27,3 +27,6 @@ header#layout-header{
 //-----------------------
 // HEADER MAIN
 //-----------------------
+.header-main{
+    z-index: 99;
+}

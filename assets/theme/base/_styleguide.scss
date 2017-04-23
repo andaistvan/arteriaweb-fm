@@ -1,3 +1,133 @@
 //------------------------
-// STYLEGUIDE
+// STYLEGUIDE GLOBALS
 //------------------------
+.row-side-padding{
+    padding-left: 20px;
+    padding-right: 20px;
+    @media(max-width: 600px){
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+//------------------------
+// COLOR PALETTE
+//------------------------
+#color-palette{
+    background: white;
+}
+.palette{
+    border-radius: 6px;
+    display: table;
+    margin: 0px auto;
+    background: white;
+    border: 1px solid rgba(0,0,0,0.14);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.04);
+}
+
+ul.colors-cont{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin: 0px;
+    // max-width: 162px;
+    li{
+        margin: 0px;
+        padding: 0px;
+        float: left;
+    }
+}
+
+.palette-primary-lighten,
+.palette-primary,
+.palette-primary-darken,
+.palette-secondary-lighten,
+.palette-secondary,
+.palette-secondary-darken,
+.palette-neutral-lighten,
+.palette-neutral,
+.palette-neutral-darken{
+    width: 54px;
+    height: 63px;
+    display: inline-block;
+}
+// Primary colors
+.palette-primary-lighten{
+    background: $primary-color-light;
+    border-top-left-radius: 6px;
+}
+.palette-primary{
+    background: $primary-color;
+}
+.palette-primary-darken{
+    background: $primary-color-dark;
+    border-top-right-radius: 6px;
+}
+// Secondary colors
+.palette-secondary-lighten{
+    background: $secondary-color-light;
+    border-top-left-radius: 6px;
+}
+.palette-secondary{
+    background: $secondary-color;
+}
+.palette-secondary-darken{
+    background: $secondary-color-dark;
+    border-top-right-radius: 6px;
+}
+// Neutral colors
+.palette-neutral-lighten{
+    background: $neutral-color-light;
+    border-top-left-radius: 6px;
+}
+.palette-neutral{
+    background: $neutral-color;
+}
+.palette-neutral-darken{
+    background: $neutral-color-dark;
+    border-top-right-radius: 6px;
+}
+
+
+.palette-title{
+    font-size: 10px;
+    font-family: 'roboto';
+    color: black;
+    font-weight: bold;
+}
+
+//------------------------
+// PRIMARY & SECONDARY FONTS
+//------------------------
+#fonts-section{
+    background: white;
+}
+
+.pri-font{
+    font-family: $pri-font;
+}
+
+.sec-font{
+    font-family: $sec-font;
+}
+
+//------------------------
+// INSTALLED FONTS
+//------------------------
+#installed-fonts{
+    background: white;
+}
+.font-roboto{
+    font-family: $font-roboto;
+}
+.font-raleway{
+    font-family: $font-raleway;
+}
+.font-lato{
+    font-family: $font-lato;
+}
+.font-opensans{
+    font-family: $font-opensans;
+}
+.font-oswald{
+    font-family: $font-oswald;
+}
