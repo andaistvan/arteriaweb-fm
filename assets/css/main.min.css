@@ -3212,6 +3212,12 @@ footer#layout-footer { width: 100%; min-height: 300px; background: #35454d; }
 
 li.mobilnav-collapsible .collapsible-header { padding: 0 32px; font-size: 14px; color: rgba(0, 0, 0, 0.87); font-weight: 500; }
 
+ul.mobil-submenu li a { padding-left: 40px !important; }
+
+.divider.divider-nav { margin-top: 0px; }
+
+ul#slide-out.side-nav a.collapsible-header { padding-left: 32px; }
+
 section#maintenance.valign-wrapper { width: 100%; min-height: 100vh; background-image: url("../images/maintenance/maintenance-bg.jpg"); background-repeat: no-repeat; background-position: center; background-size: cover; }
 
 section#maintenance.valign-wrapper img { max-width: 100%; display: block; }

@@ -19,4 +19,21 @@ li.mobilnav-collapsible{
     }
 }
 
-// .side-nav li > a,
+ul.mobil-submenu{
+    li{
+        a{
+            padding-left: 40px !important;
+        }
+    }
+    // font-size: $sidenav-font-size;
+    // color: $sidenav-font-color;
+    // font-weight: 500;
+}
+
+.divider.divider-nav{
+    margin-top: 0px;
+}
+
+ul#slide-out.side-nav a.collapsible-header{
+    padding-left: 32px;
+}
