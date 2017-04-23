@@ -52,6 +52,50 @@ $error-color: color("red", "base") !default;
 $link-color: color("light-blue", "darken-1") !default;
 
 
+// primary color classes
+.text-pri-color{
+    color: $primary-color;
+}
+.text-pri-color-light{
+    color: $primary-color-light;
+}
+.text-pri-color-dark{
+    color: $primary-color-dark;
+}
+
+.bg-pri-color{
+    background: $primary-color;
+}
+.bg-pri-color-light{
+    background: $primary-color-light;
+}
+.bg-pri-color-dark{
+    background: $primary-color-dark;
+}
+
+// secondary color classes
+.text-sec-color{
+    color: $primary-color;
+}
+.text-sec-color-light{
+    color: $primary-color-light;
+}
+.text-sec-color-dark{
+    color: $primary-color-dark;
+}
+
+.bg-sec-color{
+    background: $primary-color;
+}
+.bg-sec-color-light{
+    background: $primary-color-light;
+}
+.bg-sec-color-dark{
+    background: $primary-color-dark;
+}
+
+
+
 // 2. Badges
 // ==========================================================================
 
@@ -291,10 +335,11 @@ $toast-text-color: #fff !default;
 // ==========================================================================
 
 // primary font
-$pri-font: 'Roboto', sans-serif;
+// $pri-font: 'Roboto', sans-serif;
+$pri-font: 'Raleway', sans-serif;
 
 // Secondary font
-$sec-font: 'Raleway', sans-serif;
+$sec-font: 'Roboto', sans-serif;
 
 // Installed fonts
 $font-roboto: 'Roboto', sans-serif;

@@ -2,7 +2,7 @@
 /** 1. Set default font family to sans-serif. 2. Prevent iOS and IE text size adjust after device orientation change, without disabling user zoom. */
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
-@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900&subset=latin-ext");
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
@@ -1198,6 +1198,30 @@ td, th { padding: 0; }
 .transparent { background-color: transparent !important; }
 
 .transparent-text { color: transparent !important; }
+
+.text-pri-color { color: #379FD7; }
+
+.text-pri-color-light { color: #77bee4; }
+
+.text-pri-color-dark { color: #2074a1; }
+
+.bg-pri-color { background: #379FD7; }
+
+.bg-pri-color-light { background: #77bee4; }
+
+.bg-pri-color-dark { background: #2074a1; }
+
+.text-sec-color { color: #379FD7; }
+
+.text-sec-color-light { color: #77bee4; }
+
+.text-sec-color-dark { color: #2074a1; }
+
+.bg-sec-color { background: #379FD7; }
+
+.bg-sec-color-light { background: #77bee4; }
+
+.bg-sec-color-dark { background: #2074a1; }
 
 html { box-sizing: border-box; }
 
@@ -3130,21 +3154,23 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 @media (min-height: 40.125em) { .picker--time .picker__box { margin-bottom: 5em; } }
 
-html, body { width: 100%; background: #eceff1; }
+html, body { width: 100%; background: white; }
 
 .clear { clear: both; }
 
-.site-wrapper { width: 100%; max-width: 1600px; display: table; margin: 0 auto; }
+.site-wrapper { width: 100%; max-width: 1600px; display: table; margin: 0 auto; background: #eceff1; }
 
 .fullwidth { width: 100%; }
 
 section#layout-content { min-height: 90vh; z-index: 1; }
 
+.container.styleguide-container { background: white; width: 85%; }
+
 .row-side-padding { padding-left: 20px; padding-right: 20px; }
 
 @media (max-width: 600px) { .row-side-padding { padding-left: 5px; padding-right: 5px; } }
 
-#color-palette { background: white; }
+.styleguide-title { color: #7895a2; }
 
 .palette { border-radius: 6px; display: table; margin: 0px auto; background: white; border: 1px solid rgba(0, 0, 0, 0.14); box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.04); }
 
@@ -3174,13 +3200,9 @@ ul.colors-cont li { margin: 0px; padding: 0px; float: left; }
 
 .palette-title { font-size: 10px; font-family: 'roboto'; color: black; font-weight: bold; }
 
-#fonts-section { background: white; }
+.pri-font { font-family: "Raleway", sans-serif; }
 
-.pri-font { font-family: "Roboto", sans-serif; }
-
-.sec-font { font-family: "Raleway", sans-serif; }
-
-#installed-fonts { background: white; }
+.sec-font { font-family: "Roboto", sans-serif; }
 
 .font-roboto { font-family: "Roboto", sans-serif; }
 
@@ -3191,6 +3213,20 @@ ul.colors-cont li { margin: 0px; padding: 0px; float: left; }
 .font-opensans { font-family: "Open Sans", sans-serif; }
 
 .font-oswald { font-family: "Oswald", sans-serif; }
+
+.features-wrapper { display: table; }
+
+.feat-block001 .feat-icon-cont { display: table-cell; vertical-align: top; }
+
+.feat-block001 .feat-icon-cont i.fa { font-size: 40px; text-align: center; width: 80px; height: 80px; line-height: 80px; margin: 3px 15px 3px 3px; color: #2074a1; background: #77bee4; border-radius: 100%; border: 3px solid orange; }
+
+@media (max-width: 800px) { .feat-block001 .feat-icon-cont i.fa { font-size: 30px; width: 60px; height: 60px; line-height: 60px; } }
+
+.feat-block001 .feat-content h3 { font-size: 2em; margin-top: 15px; font-weight: bold; }
+
+@media (max-width: 800px) { .feat-block001 .feat-content h3 { margin-top: 10px; } }
+
+.feat-block001 .feat-content p { margin-top: 0px; }
 
 header#layout-header { width: 100%; z-index: 99; }
 

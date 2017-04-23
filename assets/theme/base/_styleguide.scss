@@ -1,6 +1,24 @@
-//------------------------
+// ==========================================================================
 // STYLEGUIDE GLOBALS
-//------------------------
+// ==========================================================================
+//
+// Table of contents
+//
+// 1. styleguide GLOBALS
+// 2. color palette
+// 3. primary & secondary fonts
+// 4. installed fonts
+// 5. #block001 3 col left icon
+// 6. #block002 3 col right icon
+// ==========================================================================
+
+// 1. styleguide GLOBALS
+// ===================================
+.container.styleguide-container{
+    background: white;
+    width: 85%;
+}
+
 .row-side-padding{
     padding-left: 20px;
     padding-right: 20px;
@@ -10,11 +28,14 @@
     }
 }
 
-//------------------------
-// COLOR PALETTE
-//------------------------
+.styleguide-title{
+    color: $secondary-color-light;
+}
+
+// 2. color palette
+// ==========================================================================
 #color-palette{
-    background: white;
+    // background: white;
 }
 .palette{
     border-radius: 6px;
@@ -95,11 +116,10 @@ ul.colors-cont{
     font-weight: bold;
 }
 
-//------------------------
-// PRIMARY & SECONDARY FONTS
-//------------------------
+// 3. primary & secondary fonts
+// ==========================================================================
 #fonts-section{
-    background: white;
+    // background: white;
 }
 
 .pri-font{
@@ -110,11 +130,10 @@ ul.colors-cont{
     font-family: $sec-font;
 }
 
-//------------------------
-// INSTALLED FONTS
-//------------------------
+// 4. installed fonts
+// ==========================================================================
 #installed-fonts{
-    background: white;
+    // background: white;
 }
 .font-roboto{
     font-family: $font-roboto;
@@ -131,3 +150,49 @@ ul.colors-cont{
 .font-oswald{
     font-family: $font-oswald;
 }
+
+
+// 5. #block001 3 col left icon
+// ==========================================================================
+.features-wrapper{
+    display: table;
+    // background: $secondary-color-light;
+}
+.feat-block001 .feat-icon-cont{
+    display: table-cell;
+    vertical-align: top;
+}
+.feat-block001 .feat-icon-cont i.fa{
+    font-size: 40px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    margin: 3px 15px 3px 3px;
+    //icon background
+    color: $primary-color-dark;
+    background: $primary-color-light;
+    border-radius: 100%;
+    border: 3px solid orange;
+    @media (max-width: 800px){
+        font-size: 30px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+}
+.feat-block001 .feat-content h3{
+    font-size: 2em;
+    margin-top: 15px;
+    font-weight: bold;
+    @media (max-width: 800px){
+        margin-top: 10px;
+    }
+}
+.feat-block001 .feat-content p{
+    margin-top: 0px;
+}
+
+
+// 6. #block002 3 col right icon
+// ==========================================================================
