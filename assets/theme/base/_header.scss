@@ -30,3 +30,13 @@ header#layout-header{
 .header-main{
     z-index: 99;
 }
+
+//-----------------------
+// VERTICAL DIVIDER
+//-----------------------
+li.vertical-divider{
+    border-left: 2px solid $primary-color;
+    height: $navbar-height - 20px;
+    margin-top: ($navbar-height - 20px) / 4;
+    content: "";
+}

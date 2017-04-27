@@ -9,7 +9,7 @@
 // 3. primary & secondary fonts
 // 4. installed fonts
 // 5. #block001 3 col left icon
-// 6. #block002 3 col right icon
+// 6. #block002 3 col center icon
 // ==========================================================================
 
 // 1. styleguide GLOBALS
@@ -19,14 +19,6 @@
     width: 85%;
 }
 
-.row-side-padding{
-    padding-left: 20px;
-    padding-right: 20px;
-    @media(max-width: 600px){
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-}
 
 .styleguide-title{
     color: $secondary-color-light;
@@ -154,7 +146,7 @@ ul.colors-cont{
 
 // 5. #block001 3 col left icon
 // ==========================================================================
-.features-wrapper{
+.feat-block001 .features-wrapper{
     display: table;
     // background: $secondary-color-light;
 }
@@ -194,5 +186,37 @@ ul.colors-cont{
 }
 
 
-// 6. #block002 3 col right icon
+// 6. #block002 3 col center icon
 // ==========================================================================
+.feat-block002 .features-wrapper{
+    display: table;
+    // background: $secondary-color-light;
+}
+.feat-block002 .feat-icon-cont{
+    display: table;
+    margin: 0 auto;
+}
+.feat-block002 .feat-icon-cont i.fa{
+    font-size: 40px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    margin: 10px auto;
+    //icon background
+    color: $primary-color-dark;
+    background: $primary-color-light;
+    border-radius: 100%;
+    border: 3px solid orange;
+}
+.feat-block002 .feat-content h3{
+    font-size: 2em;
+    margin-top: 15px;
+    font-weight: bold;
+    @media (max-width: 800px){
+        margin-top: 10px;
+    }
+}
+.feat-block002 .feat-content p{
+    margin-top: 0px;
+}

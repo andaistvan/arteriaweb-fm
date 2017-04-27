@@ -10,6 +10,13 @@ description = "branding, main navigation"
     <li><a href="#!">three</a></li>
 </ul>
 
+<!-- MAIN - DROPDOWN NAV -->
+<ul id="language-btn" class="dropdown-content language-selector">
+    <li><a href="#!">magyar</a></li>
+    <li><a href="#!">angol</a></li>
+    <!-- LOCALE PICKER COMPONENT -->
+</ul>
+
 <!-- MAIN NAVIGATION -->
 <nav>
     <div class="nav-wrapper">
@@ -22,6 +29,9 @@ description = "branding, main navigation"
             <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
             <li class="{% if this.page.id == 'rolunk' %}active{% endif %}"><a href="{{ 'rolunk'|page }}">Rólunk</a></li>
             <li class="{% if this.page.id == 'kapcsolat' %}active{% endif %}"><a href="{{ 'kapcsolat'|page }}">Kapcsolat</a></li>
+            <li class="vertical-divider"></li>
+            <!-- Language selector -->
+            <li><a class="dropdown-button" href="!#" data-activates="language-btn">Language<i class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
     </div>
 </nav>
